@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "Sarala";
+    src: url(font/Sarala-Regular.ttf),
+}
+
 * {
-    @import url('https://fonts.googleapis.com/css?family=Sarala');
     font-family: 'Sarala', sans-serif;
 }
 
