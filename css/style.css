@@ -1,0 +1,111 @@
+* {
+    @import url('https://fonts.googleapis.com/css?family=Sarala');
+    font-family: 'Sarala', sans-serif;
+}
+
+.section.topPage {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    min-height: 600px;
+    padding: 0;
+}
+
+nav, .footer-copyright, .page-footer{
+    background-color: #8778BD;
+}
+
+.logo-nav {
+    width: 110px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo-nav {
+        width: 100px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .logo-nav {
+        width: 110px;
+        margin-left: 0px;
+    }
+}
+
+.custombg-primary {
+    background: #8778BD;
+}
+
+.customTextColor {
+    color: #8778BD;
+}
+
+.iconHome {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.statistics {
+    background-color: #01A6C4;
+    color: white;
+}
+
+.statistics .stat {
+    font-size: 106px;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.app img {
+    width: 400px;
+}
+
+.app .imgApp {
+    position: absolute;
+    right: 0;
+}
+
+.app .customMargin {
+    margin-top: 300px;
+}
+
+.customBtn {
+    background-color: #1AB2B3;
+    color: #fff;
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 6px grey
+}
+
+.customBtn:hover {
+    background-color: #1ea9aa;
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.join {
+    background-image: url("../images/BG2.jpg");
+    background-size: cover;
+}
+
+.join form {
+    padding: 100px;
+}
+
+.page-footer {
+    padding-bottom: 20px;
+}
+
+.section.join {
+    padding: 0;
+}
+
+.section.join .row{
+    margin-bottom: 0;
+}
