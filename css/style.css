@@ -107,3 +107,15 @@ h1 {
 .section.join .row{
     margin-bottom: 0;
 }
+
+p {
+    font-size: 17px;
+}
+
+li {
+    font-size: 17px;
+}
+
+a {
+    font-size: 17px;
+}
