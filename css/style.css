@@ -1,11 +1,30 @@
 @font-face {
-    font-family: "Sarala";
-    src: url(font/Sarala-Regular.ttf),
+    font-family: Sarala;
+    src: url(../font/Sarala.ttf);
 }
 
-* {
-    font-family: 'Sarala', sans-serif;
+body {
+    font-family: Sarala;
 }
+
+@font-face {
+    font-family: Fira_Sans_Condensed;
+    src: url(../font/FiraSansCondensed.ttf);
+}
+
+h2, h3, h4 {
+    font-family: Fira_Sans_Condensed;
+}
+
+@font-face {
+    font-family: Cuprum;
+    src: url(../font/Cuprum.ttf);
+}
+
+h1 {
+    font-family: Cuprum;
+}
+
 
 .section.topPage {
     background-image: url("../images/bg.jpg");
@@ -133,3 +152,7 @@ a {
 .noMargin {
     margin: 0;
 }
+
+
+
+
