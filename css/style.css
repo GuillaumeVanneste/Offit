@@ -153,6 +153,9 @@ a {
     margin: 0;
 }
 
+.navhover li a:hover {
+    color: #8778BD;
+}
 
 
 
