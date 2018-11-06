@@ -109,13 +109,27 @@ h1 {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 li {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 a {
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 600px) {
+    .imgApp {
+        display: none;
+    }
+}
+
+.section {
+    padding: 30px;
+}
+
+.noMargin {
+    margin: 0;
 }
